@@ -11,7 +11,7 @@ function draw() {
 	var circle = {
 		outer: {
 			radius	: 0.9,
-			color	: "#2a2a2a"
+			color	: "#ff0000"
 		},
 		inner: {
 			radius	: 0.85,
@@ -24,15 +24,15 @@ function draw() {
 	var lines = {
 		long: {
 			from	: 0.8,
-			to		: 0.68,
-			width	: 3,
+			to		: 0.5,
+			width	: 400,
 			color	: "#2a2a2a"
 		},
 		short: {
 			from	: 0.8,
-			to		: 0.75,
-			width	: 1,
-			color	: "#2a2a2a"
+			to		: 0.5,
+			width	: 40,
+			color	: "#0000ff"
 		}
 	};
 	
@@ -41,22 +41,22 @@ function draw() {
 	// ratio は反対側の長さの比率
 	var hands = {
 		hour: {
-			length	: 0.43,
-			width	: 8,
+			length	: 50,
+			width	: 25,
 			cap		: "round",
 			color	: "#333",
 			ratio	: 0.2
 		},
 		minute: {
-			length	: 0.67,
-			width	: 6,
+			length	: 50,
+			width	: 50,
 			cap		: "round",
 			color	: "#333",
 			ratio	: 0.2
 		},
 		second: {
-			length	: 0.67,
-			width	: 2,
+			length	: 50,
+			width	: 1,
 			cap		: "round",
 			color	: "#dd3c3c",
 			ratio	: 0.2
